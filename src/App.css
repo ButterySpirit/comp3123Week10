@@ -36,3 +36,74 @@
     transform: rotate(360deg);
   }
 }
+.container {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  border: 2px solid green;
+  border-radius: 5px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+}
+
+.form-group label {
+  font-weight: bold;
+}
+
+.form-group input,
+.form-group select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form-group input[type="checkbox"] {
+  width: auto;
+  margin-right: 0.5em;
+}
+
+.submit-button {
+  background-color: green;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100px;
+  align-self: center;
+}
+
+.submitted-data {
+  margin-top: 20px;
+  padding: 10px;
+  border-top: 1px solid #ccc;
+}
+.submitted-data {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid green;
+  border-radius: 5px;
+}
+
+.submitted-data p {
+  font-weight: bold;
+  color: green;
+}
+
+.submitted-data p strong {
+  color: green;
+}
